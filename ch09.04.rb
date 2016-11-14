@@ -22,7 +22,7 @@ class Orange_Tree
   end
 
   def measure
-    puts "You measure the orange tree to find that it is " + @height.to_s + " feet high. The tree insists you re-measure \"from the base\". You ignore it."
+    puts "You measure the orange tree to find that it is " + @height.to_s + " feet high."
   end
 
   def pick_oranges (quantity = (no_arguments_passed = true; nil))
